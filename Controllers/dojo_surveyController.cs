@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
-namespace FirstWeb.Controllers
+namespace dojo_survey.Controllers
 {
     public class dojo_surveyController: Controller
     {
