@@ -1,45 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="~/css/styles.css"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <title>Document</title>
+    <title>Survey</title>
 </head>
+
 <body>
-<div class='wrapper'>
-    <h1 class='h1'>Dojo Survey</h1>
-    <form class='form' action='/result' method="post">
-    <div class='section'>
-        Name: <input type='text' name='name'>
-    </div>
-    <div class='section'>
-        Dojo Location: <select name='location'>
-            <option value="Seattle">Seattle</option>
-            <option value="San Jose">San Jose</option>
-            <option value="Chicago">Chicago</option>
-        
-        </select>
-    </div>
-    <div class='section'>
-        Favorite Language: <select name='language'>
-            <option value="Python">Python/Django</option>
-            <option value="C#/.NET">C#/.NET</option>
-            <option value="MERN">MERN</option>
-            <option value="Java">Java</option>
-        </select>
-    </div>
-    Comment (optional):
-    <div class='section'>        
-        <textarea name='comment' cols='10' rows='4'></textarea>
-    </div>
-        <input id='button' type='submit' value='Submit'>
-    </form> 
-</div> 
-
-
-
-
+    <h1>Survey Page</h1>
+    <form action="process" method="post">
+        <label for="Name">Full Name:</label><br>
+        <input type="text" id="Name" name="Name"><br><br>
+        <select id="Location" name="Location">
+            <option value="seattle">seattle</option>
+            <option value="chicago">chicago</option>
+            <option value="dallas">dallas</option>
+            <option value="denver">denver</option>
+        </select><br><br>
+        <select id="Language" name="Language">
+            <option value="c#">c#</option>
+            <option value="python">python</option>
+            <option value="javascript">javascript</option>
+            <option value="java">java</option>
+        </select><br><br>
+        <textarea name="Comment" rows="10" cols="30"></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
 </body>
+
 </html>

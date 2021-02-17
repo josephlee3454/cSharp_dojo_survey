@@ -33,3 +33,4 @@
 /home/owner/dojo/c#colections/dojo-survey/dojo-survey/obj/Debug/net5.0/dojo-survey.RazorTargetAssemblyInfo.cs
 /home/owner/dojo/c#colections/dojo-survey/dojo-survey/obj/Debug/net5.0/dojo-survey.Views.pdb
 /home/owner/dojo/c#colections/dojo-survey/dojo-survey/obj/Debug/net5.0/dojo-survey.csproj.CopyComplete
+/home/owner/dojo/c#colections/dojo-survey/dojo-survey/obj/Debug/net5.0/Razor/Views/_ViewImports.cshtml/_ViewImports.cshtml.g.cs

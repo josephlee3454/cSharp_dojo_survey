@@ -15603,13 +15603,18 @@
   "RootNamespace": "dojo_survey",
   "Documents": [
     {
-      "FilePath": "/home/owner/dojo/c#colections/dojo-survey/dojo-survey/Views/dojo_survey/result.cshtml",
-      "TargetPath": "Views\\dojo_survey\\result.cshtml",
+      "FilePath": "/home/owner/dojo/c#colections/dojo-survey/dojo-survey/Views/dojo_survey/Result.cshtml",
+      "TargetPath": "Views\\dojo_survey\\Result.cshtml",
       "FileKind": "mvc"
     },
     {
       "FilePath": "/home/owner/dojo/c#colections/dojo-survey/dojo-survey/Views/dojo_survey/Index.cshtml",
       "TargetPath": "Views\\dojo_survey\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/owner/dojo/c#colections/dojo-survey/dojo-survey/Views/_ViewImports.cshtml/_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml\\_ViewImports.cshtml",
       "FileKind": "mvc"
     }
   ],
